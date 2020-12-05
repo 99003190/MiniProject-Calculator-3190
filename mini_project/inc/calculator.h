@@ -2,7 +2,7 @@
 #define __CALCULATOR_H__
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdio_ext.h>
+#include <stdio.h>
 
 /**
 *  adds the operand1 and operand2 and returns the result
