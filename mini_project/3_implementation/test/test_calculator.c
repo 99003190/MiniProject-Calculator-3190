@@ -77,8 +77,8 @@ void test_divide(void) {
 void test_factorial(void){
   CU_ASSERT(120==factorial(5));
 }
-void test_angstrom(void){
-  CU_ASSERT(1==isangstrom(153));
+void test_armgstrom(void){
+  CU_ASSERT(1==isarmgstrom(153));
 }
 void test_prime(void){
   CU_ASSERT(0==isprime(7));
