@@ -25,15 +25,8 @@ void calculator_menu(void)
     scanf("%d", &choice);
     //printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Factorial\n6. Angstrom\n7. Primeno check\n8. Square Root");
     //printf("\n17. Exit");
-    
-   
-    
-  
-  
-  switch(choice)
+    switch(choice)
     {
-        
-
         case 1:
         {
             printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Factorial\n6. Square Root\n7. exit");
@@ -41,9 +34,7 @@ void calculator_menu(void)
             scanf("%d", &calculator_operation);
             switch(calculator_operation)
             {
-                
-
-                case 1:
+                 case 1:
                 {
                     int calculator_operand1,calculator_operand2;
                      scanf("%d %d", &calculator_operand1, &calculator_operand2);
@@ -95,21 +86,13 @@ void calculator_menu(void)
                     exit(0);
                 default:
                     printf("\n not applicable");
-
-
             }
-            
-           
-            
         }
         break;
         case 2:
         {
             //should add trigonometric
             printf("trigonometry");
-            
-             
-           
         }
          break;
             
@@ -153,9 +136,8 @@ void calculator_menu(void)
         }
         break;     
         case 4:
-<<<<<<< HEAD
             exit (0); 
-=======
+
         {
              double calculator_operand1,calculator_operand2;
             scanf("%lf %lf", &calculator_operand1, &calculator_operand2);
@@ -208,7 +190,6 @@ void calculator_menu(void)
             printf("Square root is: %.3lf",squareroot(calculator_operand1));
         }
         break;      
->>>>>>> 059bc010424651a772f31c949c7ee1e88aa4b34b
         default:
             printf("\n\t---It should never come here---\n");
     }
