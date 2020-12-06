@@ -60,6 +60,7 @@ void test_subtract(void) {
   CU_ASSERT(1 == subtract(1000, 900));
 }
 
+
 void test_multiply(void) {
   CU_ASSERT(0 == multiply(1, 0));
   
@@ -73,11 +74,9 @@ void test_divide(void) {
   /* Dummy fail*/
   CU_ASSERT(3 == divide(2, 2));
 }
-
 void test_factorial(void){
   CU_ASSERT(120==factorial(5));
 }
-
 void test_angstrom(void){
   CU_ASSERT(1==isangstrom(153));
 }
