@@ -57,7 +57,6 @@ int cosec(int operand1);
 int sec(int operand1);
 
 int cot(int operand1);
-
 */
 
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
