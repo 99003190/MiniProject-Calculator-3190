@@ -94,7 +94,7 @@ void calculator_menu(void)
                      printf("\nPRIME");
              break;          
         case 8:
-        {
+        
 
             double calculator_operand1=0;
             printf("Enter number ");
@@ -105,8 +105,8 @@ void calculator_menu(void)
             
             printf("%d",val);
             break;
-             default:
+        default:
             printf("\n\t---It should never come here---\n");
     }
 }
-}
+
