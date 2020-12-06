@@ -30,7 +30,7 @@ int main() {
   CU_add_test(suite,"multiply", test_multiply);
   CU_add_test(suite,"divide", test_divide);
   CU_add_test(suite,"factorial",test_factorial );
-  CU_add_test(suite,"isarmstrong",test_armstrong );
+  CU_add_test(suite,"isarmstrong",test_isarmstrong );
   CU_add_test(suite,"isprime",test_prime );
     /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
