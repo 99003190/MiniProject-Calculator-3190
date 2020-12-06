@@ -17,6 +17,7 @@ int multiply(int operand1, int operand2)
     return operand1 * operand2;
 }
 
+
 int divide(int operand1, int operand2)
 {
     if(0 == operand2)
@@ -63,7 +64,8 @@ int isangstrom(int operand1)
     return 1;
    else
     return 0;
-}    
+}  
+
 
 int isprime(int operand1)
 {
