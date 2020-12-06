@@ -11,7 +11,7 @@ float val1=0;
 /* Start of the application */
 int main()
 {
-    printf("\n****Calculator****\n");
+    printf("\n*****Calculator*****\n");
     while(1)
     {
         calculator_menu();
