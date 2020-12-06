@@ -1,10 +1,7 @@
 
 #include<math.h>
-<<<<<<< HEAD
 #include "calculator.h"
-=======
 #define PI 3.14159265
->>>>>>> 059bc010424651a772f31c949c7ee1e88aa4b34b
 int add(int operand1, int operand2)
 {
     return (operand1 + operand2);
@@ -93,6 +90,7 @@ double squareroot(double operand1)
 {
     return sqrt(operand1);
 }
+/*
 float sine(float x)
 {
     return (sin (x*PI/180));
@@ -117,3 +115,4 @@ float tangenth(float x)
 {
     return (sinh(x));
 }
+*/
