@@ -26,7 +26,7 @@ int subtract(int,int);
 * @param[in] operand2 
 * @return Result of operand1 * operand2
 */
-double multiply(double operand1,double operand 2);
+double multiply(double operand1,double operand2);
 
 
 /**

@@ -62,9 +62,9 @@ void calculator_menu(void)
              double calculator_operand1,calculator_operand2;
             scanf("%lf %lf", &calculator_operand1, &calculator_operand2);
             
-             val=multiply(calculator_operand1, calculator_operand2);
             
-            printf("%d",val);
+            
+            printf("%d",multiply(calculator_operand1, calculator_operand2));
            
         }
         break;
@@ -73,8 +73,8 @@ void calculator_menu(void)
              double calculator_operand1,calculator_operand2;
             scanf("%lf %lf", &calculator_operand1, &calculator_operand2);
             
-             val=divide(calculator_operand1,calculator_operand2);
-             printf("%d",val);
+            
+             printf("%d",divide(calculator_operand1,calculator_operand2));
         }
         break;
            
@@ -115,11 +115,10 @@ void calculator_menu(void)
                 
         case 8:
         {
-            double calculator_operand1=0;
+            double calculator_operand1;
             printf("Enter number ");
             scanf("%lf", &calculator_operand1);
-            val=squareroot(calculator_operand1);
-            printf("Square root is: %.3lf",val);
+            printf("Square root is: %.3lf",squareroot(calculator_operand1));
         }
         break;      
         default:
