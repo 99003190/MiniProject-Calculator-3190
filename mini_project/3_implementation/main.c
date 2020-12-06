@@ -85,7 +85,15 @@ void calculator_menu(void)
                      printf("\nNOT PRIME");
              else
                      printf("\nPRIME");
-             break;           
+             break;          
+        case 8:
+        {
+
+            double num;
+            printf("Enter number ");
+            scanf("%lf", &num);
+            printf("Square root is: %.3lf",sqareroot(num));
+            break;      
             
             
             printf("%d",val);

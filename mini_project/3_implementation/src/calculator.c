@@ -83,3 +83,7 @@ int isprime(int operand1)
   }
 }       
  
+double sqareroot(double operand1)
+{
+    return sqrt(operand1);
+}

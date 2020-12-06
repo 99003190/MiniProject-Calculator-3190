@@ -44,7 +44,7 @@ int isarmstrong(int operand1);
 
 int isprime(int operand1);
  /*
-int squareroot(int operand1);
+double sqareroot(double operand1);
 
 int sine(int operand1);
 
