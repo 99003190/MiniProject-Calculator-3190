@@ -35,15 +35,17 @@ void calculator_menu(void)
   switch(calculator_operation)
     {
         case 1:
-            int calculator_operand1,calculator_operand2;
+        {
+             int calculator_operand1,calculator_operand2;
             scanf("%d %d", &calculator_operand1, &calculator_operand2);
             
            val= add(calculator_operand1, calculator_operand2);
             printf("%d",val);
             
-            
-            break;
+        }
+        break;
         case 2:
+        {
             int calculator_operand1,calculator_operand2;
             scanf("%d %d", &calculator_operand1, &calculator_operand2);
             
@@ -51,22 +53,33 @@ void calculator_menu(void)
             
             
             printf("%d",val);
-            break;
+           
+        }
+         break;
+            
         case 3:
-            double calculator_operand1,calculator_operand2;
+        {
+             double calculator_operand1,calculator_operand2;
             scanf("%lf %lf", &calculator_operand1, &calculator_operand2);
             
              val=multiply(calculator_operand1, calculator_operand2);
             
             printf("%d",val);
            
-            break;
+        }
+        break;
         case 4:
-            double calculator_operand1,calculator_operand2;
+        {
+             double calculator_operand1,calculator_operand2;
             scanf("%lf %lf", &calculator_operand1, &calculator_operand2);
             
              val=divide(calculator_operand1,calculator_operand2);
-         case 5:
+             printf("%d",val);
+        }
+        break;
+           
+        case 5:
+        {
             int calculator_operand1, calculator_operand2;
             scanf("%d", &calculator_operand1);
              val=factorial(calculator_operand1);
@@ -74,8 +87,10 @@ void calculator_menu(void)
               printf("No factorial for negative no");
             else 
              printf(" Factorial=%d",val);
-            break;
+        }
+         break;
         case 6:
+        {
             int calculator_operand1;
              scanf("%d",&calculator_operand1);
               val=isarmstrong(calculator_operand1);
@@ -83,8 +98,10 @@ void calculator_menu(void)
                      printf("NOT ANGSTROM");
              else
                      printf("ANGSTROM");
-             break;
+        }
+        break;
         case 7:
+        {
             int calculator_operand1;
              scanf("%d",&calculator_operand1);
               val=isprime(calculator_operand1);
@@ -92,19 +109,19 @@ void calculator_menu(void)
                      printf("\nNOT PRIME");
              else
                      printf("\nPRIME");
-             break;          
+                  
+        }
+        break; 
+                
         case 8:
-        
-
+        {
             double calculator_operand1=0;
             printf("Enter number ");
             scanf("%lf", &calculator_operand1);
-            printf("Square root is: %.3lf",sqareroot(calculator_operand1));
-            break;      
-            
-            
-            printf("%d",val);
-            break;
+            val=sqareroot(calculator_operand1);
+            printf("Square root is: %.3lf",val);
+        }
+        break;      
         default:
             printf("\n\t---It should never come here---\n");
     }
