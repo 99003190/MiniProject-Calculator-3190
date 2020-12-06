@@ -1,26 +1,27 @@
 
 #include<math.h>
+#include "calculator.h"
 int add(int operand1, int operand2)
 {
-    return operand1 + operand2;
+    return (operand1 + operand2);
 }
 
 int subtract(int operand1, int operand2)
 {
-    return operand1 - operand2;
+    return (operand1 - operand2);
 }
 
 double multiply(double operand1, double operand2)
 {
-    return operand1 * operand2;
+    return (operand1 * operand2);
 }
 
 double divide(double operand1, double operand2)
 {
-    if(0 == operand2)
+    if(operand2 == 0)
         return 0;
     else
-        return operand1 / operand2;
+        return (operand1 / operand2);
 }
 
 int factorial(int operand1)
@@ -70,17 +71,18 @@ int isprime(int operand1)
     int flag=0;
     if(operand1>1)
     {
-        for (int loop_var = 2; loop_var <= operand1 / 2; ++loop_var) {
+        for (int loop_var = 2; loop_var <= operand1 / 2; loop_var++) 
+        {
 
         // condition for non-prime
-        if (operand1 % loop_var == 0) 
-        {
-            flag = 1;
-            break;
+             if (operand1 % loop_var == 0) 
+             {
+                 flag = 1;
+                break;
+             }
         }
-    }
     return flag;
-  }
+    }
 }       
  
 double squareroot(double operand1)
