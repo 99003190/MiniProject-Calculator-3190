@@ -118,7 +118,7 @@ void calculator_menu(void)
             double calculator_operand1=0;
             printf("Enter number ");
             scanf("%lf", &calculator_operand1);
-            val=sqareroot(calculator_operand1);
+            val=squareroot(calculator_operand1);
             printf("Square root is: %.3lf",val);
         }
         break;      

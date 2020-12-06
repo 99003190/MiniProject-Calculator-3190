@@ -32,6 +32,7 @@ int main() {
   CU_add_test(suite,"factorial",test_factorial );
   CU_add_test(suite,"isarmstrong",test_isarmstrong );
   CU_add_test(suite,"isprime",test_prime );
+  CU_add_test(suite,"squareroot",test_squareroot );
     /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
   CU_basic_set_mode(CU_BRM_VERBOSE);
@@ -46,7 +47,8 @@ int main() {
 }
 
 /* Write all the test functions */ 
-void test_add(void) {
+void test_add(void) 
+{
   CU_ASSERT(30 == add(10, 20));
   
   /* Dummy fail*/
@@ -59,27 +61,50 @@ void test_subtract(void) {
   /* Dummy fail*/
   CU_ASSERT(1 == subtract(1000, 900));
 }
-
-
-void test_multiply(void) {
+void test_multiply(void)
+{
+    CU_ASSERT_DOUBLE_EQUAL(multiply(4.21,2), 8.420, 0);
+    CU_ASSERT_DOUBLE_EQUAL(multiply(-3.2,2),-6.400,0);
+}
+void test_divide(void)
+{
+    CU_ASSERT_DOUBLE_EQUAL(divide(6.7,2), 3.350, 0);
+    CU_ASSERT_DOUBLE_EQUAL(divide(6.7,0), 0, 0);
+}
+/*
+void test_multiply(void) 
+{
   CU_ASSERT(0 == multiply(1, 0));
   
-  /* Dummy fail*/
+   Dummy fail 
   CU_ASSERT(2 == multiply(2, 5));
 }
+*/
 
+
+/*
 void test_divide(void) {
   CU_ASSERT(0 == divide(1, 0));
   
-  /* Dummy fail*/
+   Dummy fail
   CU_ASSERT(3 == divide(2, 2));
 }
-void test_factorial(void){
+*/
+void test_factorial(void)
+{
   CU_ASSERT(120==factorial(5));
 }
-void test_isarmstrong(void){
+void test_isarmstrong(void)
+{
   CU_ASSERT(1==isarmstrong(153));
 }
-void test_prime(void){
+void test_prime(void)
+{
   CU_ASSERT(0==isprime(7));
+}
+void test_squareroot(void)
+{
+    CU_ASSERT_DOUBLE_EQUAL(sqarert(144) , 12, 0);
+    CU_ASSERT_DOUBLE_EQUAL(sqarert(98) , 9.899, 0.1);
+
 }
