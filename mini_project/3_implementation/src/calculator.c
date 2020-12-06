@@ -1,6 +1,5 @@
 
 #include<math.h>
-
 int add(int operand1, int operand2)
 {
     return operand1 + operand2;
@@ -23,6 +22,10 @@ int divide(int operand1, int operand2)
     else
         return operand1 / operand2;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 96adeedf4da98b7fec89a9f01760b26f0b898d40
 int factorial(int operand1)
 {
   if(operand1<0)
@@ -40,7 +43,11 @@ int factorial(int operand1)
   }
 }
 
+<<<<<<< HEAD
 int isangstrom(int operand1)
+=======
+int isarmstrong(int operand1)
+>>>>>>> 96adeedf4da98b7fec89a9f01760b26f0b898d40
 {
     int temp_operand,loop_var=0,remainder=0,result=0;
     for (temp_operand = operand1; temp_operand != 0; ++loop_var)
@@ -61,7 +68,8 @@ int isangstrom(int operand1)
     return 1;
    else
     return 0;
-}    
+}  
+
 
 int isprime(int operand1)
 {
@@ -80,3 +88,4 @@ int isprime(int operand1)
     return flag;
   }
 }       
+ 

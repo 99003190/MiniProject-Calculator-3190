@@ -37,13 +37,13 @@ int multiply(int,int);
 * @note returns 0 for divide by 0 error
 */
 int divide(int,int);
-/*
+
 int factorial(int operand1);
 
-int isangstrom(int operand1);
+int isarmstrong(int operand1);
 
 int isprime(int operand1);
- 
+ /*
 int squareroot(int operand1);
 
 int sine(int operand1);
