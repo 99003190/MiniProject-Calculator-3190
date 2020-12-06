@@ -40,7 +40,7 @@ int factorial(int operand1)
   }
 }
 
-int isangstrom(int operand1)
+int isarmstrong(int operand1)
 {
     int temp_operand,loop_var=0,remainder=0,result=0;
     for (temp_operand = operand1; temp_operand != 0; ++loop_var)
