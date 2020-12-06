@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdio.h>
+#define PI 3.14159265
 
 /**
 *  adds the operand1 and operand2 and returns the result
