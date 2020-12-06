@@ -11,7 +11,6 @@ void test_subtract(void);
 void test_multiply(void);
 void test_divide(void);
 void test_factorial(void);
-void test_evenodd(void);
 void test_isarmstrong(void);
 void test_prime(void);
 void test_squareroot(void);
