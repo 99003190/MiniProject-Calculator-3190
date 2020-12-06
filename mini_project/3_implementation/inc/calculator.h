@@ -47,16 +47,11 @@ int isprime(int operand1);
  
 double squareroot(double operand1);
 
-float sine(float x);
-
-float cosine(float x);
-
-float tangent(float x);
-
-float sineh(float x);
-
-float cosineh(float x);
-
-float tangenth(float x);
+double cosine(double);
+double sine(double);
+double Tan(double);
+double Cot(double);
+double Sec(double);
+double Cosec(double m);
 
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
