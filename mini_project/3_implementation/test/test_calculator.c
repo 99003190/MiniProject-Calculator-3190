@@ -12,7 +12,7 @@ void test_multiply(void);
 void test_divide(void);
 void test_factorial(void);
 void test_evenodd(void);
-void test_angstrom(void);
+void test_armstrong(void);
 void test_prime(void);
 /* Start of the application test */
 int main() {
@@ -30,7 +30,7 @@ int main() {
   CU_add_test(suite,"multiply", test_multiply);
   CU_add_test(suite,"divide", test_divide);
   CU_add_test(suite,"factorial",test_factorial );
-  CU_add_test(suite,"isangstrom",test_angstrom );
+  CU_add_test(suite,"isarmstrong",test_armstrong );
   CU_add_test(suite,"isprime",test_prime );
     /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
@@ -77,8 +77,8 @@ void test_divide(void) {
 void test_factorial(void){
   CU_ASSERT(120==factorial(5));
 }
-void test_armgstrom(void){
-  CU_ASSERT(1==isarmgstrom(153));
+void test_armstrong(void){
+  CU_ASSERT(1==isarmstrong(153));
 }
 void test_prime(void){
   CU_ASSERT(0==isprime(7));
