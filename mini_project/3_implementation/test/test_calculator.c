@@ -14,6 +14,12 @@ void test_factorial(void);
 void test_isarmstrong(void);
 void test_prime(void);
 void test_squareroot(void);
+void test_sine(void);
+void test_cosine(void);
+void test_tan(void);
+void test_Cot(void);
+void test_Sec(void);
+void test_Cosec(void);
 /* Start of the application test */
 int main() {
 /* Note: Do not edit START*/
@@ -33,6 +39,12 @@ int main() {
   CU_add_test(suite,"isarmstrong",test_isarmstrong );
   CU_add_test(suite,"isprime",test_prime );
   CU_add_test(suite,"squareroot",test_squareroot );
+  CU_add_test(suite,"sine",test_sine);
+  CU_add_test(suite,"cos",test_cosine);
+  CU_add_test(suite,"tan",test_tan);
+  CU_add_test(suite,"Cot",test_Cot);
+  CU_add_test(suite,"Sec",test_Sec);
+  CU_add_test(suite,"cosine",test_Cosec);
     /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
   CU_basic_set_mode(CU_BRM_VERBOSE);
@@ -109,3 +121,37 @@ void test_squareroot(void)
     CU_ASSERT_DOUBLE_EQUAL(squareroot(98) , 9.899, 0);
 
 }
+void test_sine(void)
+{
+    CU_ASSERT_DOUBLE_EQUAL(sine(90) , 1, 0.1);
+    CU_ASSERT_DOUBLE_EQUAL(sine(0) , 0, 0);  
+}
+
+void test_cosine(void)
+{
+    CU_ASSERT_DOUBLE_EQUAL(cosine(0) , 1, 0.1);
+    CU_ASSERT_DOUBLE_EQUAL(cosine(45) , 0.707107, 0.1);  
+}
+
+void test_tan(void)
+{
+    CU_ASSERT_DOUBLE_EQUAL(Tan(45) , 1, 0.1);
+    CU_ASSERT_DOUBLE_EQUAL(Tan(0) , 0, 0);   
+}
+void test_Cot(void)
+{
+    CU_ASSERT_DOUBLE_EQUAL(Cot(45) , 1, 0.1);
+    CU_ASSERT_DOUBLE_EQUAL(Cot(90) , 0, 0.1);   
+}
+void test_Sec(void)
+{
+    CU_ASSERT_DOUBLE_EQUAL(Sec(0) , 1, 0.1);
+    CU_ASSERT_DOUBLE_EQUAL(Sec(45) , 1.414214 , 0.1);   
+}
+void test_Cosec(void)
+{    
+    CU_ASSERT_DOUBLE_EQUAL(Cosec(90) , 1, 0.1);
+    CU_ASSERT_DOUBLE_EQUAL(Cosec(45) , 1.414214 , 0.1); 
+
+}
+
