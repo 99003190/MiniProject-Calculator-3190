@@ -44,8 +44,12 @@ int isarmstrong(int operand1);
 
 int isprime(int operand1);
  /*
+<<<<<<< HEAD
 double sqareroot(double operand1);
 
+=======
+int squareroot(int operand1);
+>>>>>>> e56123eb4474111e7234ec0074d53cf501e534f3
 int sine(int operand1);
 
 int cos(int operand1);
