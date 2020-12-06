@@ -5,7 +5,7 @@
 
 /* Display the menu of operations supported */
 void calculator_menu(void);
-int  calculator_operand3=0,val=0;
+int  val=0;
 float val1=0;
 
 /* Start of the application */
@@ -108,4 +108,5 @@ void calculator_menu(void)
              default:
             printf("\n\t---It should never come here---\n");
     }
+}
 }
