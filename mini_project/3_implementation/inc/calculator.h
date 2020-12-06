@@ -60,5 +60,4 @@ int cot(int operand1);
 
 */
 
-
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
