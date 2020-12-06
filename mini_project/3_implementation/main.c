@@ -8,8 +8,6 @@ void calculator_menu(void);
 int calculator_operand1=0, calculator_operand2=0, calculator_operand3=0,val=0;
 float val1=0;
 
-
-
 /* Start of the application */
 int main()
 {
@@ -19,7 +17,6 @@ int main()
         calculator_menu();
     }
 }
-
 void calculator_menu(void)
 {
     int calculator_operation;
