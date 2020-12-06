@@ -93,11 +93,11 @@ void calculator_menu(void)
         {
             //should add trigonometric
             printf("What do you want to do?\n1-Sin\n2-Cosine\n3-Tan\n4-Cot\n5-Sec\n6-Cosec\n");
-            scanf("%d", &choice4);
+            scanf("%d", &choice);
             int num;
             printf("Enter number: ");
             scanf("%d", &num);
-            switch (choice4)
+            switch (choice)
             {       
   
                 case 1:
