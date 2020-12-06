@@ -1,7 +1,7 @@
-
+#include <stdlib.h>
 #include<math.h>
 #include "calculator.h"
-#define PI 3.14159265
+//#define PI 3.14159265
 int add(int operand1, int operand2)
 {
     return (operand1 + operand2);
@@ -116,3 +116,39 @@ float tangenth(float x)
     return (sinh(x));
 }
 */
+double cosine(double m){
+    m=m/57.295779513;
+    printf("cosine of angle is ");
+    double result=cos(m);
+    return result;
+}
+double sine(double m){
+    m=m/57.295779513;
+    printf("sine of angle is ");
+    double result=sin(m);
+    return result;
+}
+double Tan(double m){
+    m=m/57.295779513;
+    printf("tan of angle is ");
+    double result=tan(m);
+    return result;
+}
+double Cot(double m){
+    m=m/57.295779513;
+    printf("Cot of angle is ");
+    double result=1/tan(m);
+    return result;
+}
+double Sec(double m){
+    m=m/57.295779513;
+    printf("Sec of angle is ");
+    double result=1/cos(m);
+    return result;
+}
+double Cosec(double m){
+    m=m/57.295779513;
+    printf("Cosec of angle is ");
+    double result=1/sin(m);
+    return result;
+}

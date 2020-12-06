@@ -92,7 +92,46 @@ void calculator_menu(void)
         case 2:
         {
             //should add trigonometric
-            printf("trigonometry");
+            printf("What do you want to do?\n1-Sin\n2-Cosine\n3-Tan\n4-Cot\n5-Sec\n6-Cosec\n");
+            scanf("%d", &choice4);
+            int num;
+            printf("Enter number: ");
+            scanf("%d", &num);
+            switch (choice4)
+            {       
+  
+                case 1:
+                 {
+                    printf("Sin value is : %lf", sine(num)); 
+                    break;
+                 }
+                case 2:
+                {
+                     printf("Cosine value is : %lf", cosine(num)); 
+                break;
+
+                }
+                case 3:
+                 {
+                    printf("Tan value is : %lf", Tan(num));
+                    break;
+                 }
+                case 4:
+                {
+                    printf("Cot value is : %lf", Cot(num));
+                    break;
+                }
+                case 5:
+                {
+                    printf("Sec value is : %lf", Sec(num));
+                    break;
+                }
+                case 6:
+                {
+                    printf("Cosec value is : %lf", Cosec(num));
+                    break;
+                }
+             }
         }
          break;
             
@@ -137,58 +176,6 @@ void calculator_menu(void)
         break;     
         case 4:
             exit (0); 
-
-        {
-             double calculator_operand1,calculator_operand2;
-            scanf("%lf %lf", &calculator_operand1, &calculator_operand2);
-            
-            
-             printf("%d",divide(calculator_operand1,calculator_operand2));
-        }
-        break;
-           
-        case 5:
-        {
-            int calculator_operand1, calculator_operand2;
-            scanf("%d", &calculator_operand1);
-             val=factorial(calculator_operand1);
-            if(val<0)
-              printf("No factorial for negative no");
-            else 
-             printf(" Factorial=%d",val);
-        }
-         break;
-        case 6:
-        {
-            int calculator_operand1;
-             scanf("%d",&calculator_operand1);
-              val=isarmstrong(calculator_operand1);
-             if(val=0)
-                     printf("NOT ARMSTRONG");
-             else
-                     printf("ARMSTRONG");
-        }
-        break;
-        case 7:
-        {
-            int calculator_operand1;
-             scanf("%d",&calculator_operand1);
-              val=isprime(calculator_operand1);
-             if(val=1)
-                     printf("\nNOT PRIME");
-             else
-                     printf("\nPRIME");
-                  
-        }
-        break; 
-                
-        case 8:
-        {
-            double calculator_operand1;
-            printf("Enter number ");
-            scanf("%lf", &calculator_operand1);
-            printf("Square root is: %.3lf",squareroot(calculator_operand1));
-        }
         break;      
         default:
             printf("\n\t---It should never come here---\n");
