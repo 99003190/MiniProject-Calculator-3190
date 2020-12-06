@@ -14,7 +14,7 @@ void test_factorial(void);
 void test_evenodd(void);
 void test_isarmstrong(void);
 void test_prime(void);
-void test_squareroot(void)
+void test_squareroot(void);
 /* Start of the application test */
 int main() {
 /* Note: Do not edit START*/
@@ -56,7 +56,8 @@ void test_add(void)
   CU_ASSERT(1500 == add(750, 7500));
 }
 
-void test_subtract(void) {
+void test_subtract(void) 
+{
   CU_ASSERT(-3 == subtract(0, 3));
   
   /* Dummy fail*/
