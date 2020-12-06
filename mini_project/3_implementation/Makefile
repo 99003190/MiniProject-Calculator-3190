@@ -50,4 +50,8 @@ clean:
 
 # Create new build folder if not present
 $(BUILD):
+<<<<<<< HEAD
 	mkdir build
+=======
+	mkdir build
+>>>>>>> 96adeedf4da98b7fec89a9f01760b26f0b898d40

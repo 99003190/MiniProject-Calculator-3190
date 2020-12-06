@@ -1,4 +1,4 @@
-#include <3_implementation/inc/calculator.h>
+#include "calculator.h"
 #include<stdio.h>
 //#include<stdio_ext.h>
 
@@ -65,6 +65,30 @@ void calculator_menu(void)
             scanf("%d %d", &calculator_operand1, &calculator_operand2);
             
              val=divide(calculator_operand1, calculator_operand2);
+         case 5:
+            scanf("%d", &calculator_operand1);
+             val=factorial(calculator_operand1);
+            if(val<0)
+              printf("No factorial for negative no");
+            else 
+             printf(" Factorial=%d",val);
+            break;
+        case 6:
+             scanf("%d",&calculator_operand1);
+              val=isangstrom(calculator_operand1);
+             if(val=0)
+                     printf("NOT ANGSTROM");
+             else
+                     printf("ANGSTROM");
+             break;
+        case 7:
+             scanf("%d",&calculator_operand1);
+              val=isprime(calculator_operand1);
+             if(val=1)
+                     printf("\nNOT PRIME");
+             else
+                     printf("\nPRIME");
+             break;           
             
             
             printf("%d",val);
