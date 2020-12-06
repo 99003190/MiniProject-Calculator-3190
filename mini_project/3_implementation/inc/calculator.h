@@ -10,7 +10,7 @@
 * @param[in] operand2 
 * @return Result of operand1 + operand2
 */
-int add(int,int);
+int add(int operand1,int operand2);
 
 /**
 *  subtracts the operand1, operand2 and returns the result
@@ -26,7 +26,7 @@ int subtract(int,int);
 * @param[in] operand2 
 * @return Result of operand1 * operand2
 */
-double multiply(int,int);
+double multiply(double operand1,double operand 2);
 
 
 /**
@@ -36,15 +36,15 @@ double multiply(int,int);
 * @return integer value of the operand1 / operand2
 * @note returns 0 for divide by 0 error
 */
-double divide(int,int);
+double divide(double operand1,double operand2);
 
-double factorial(int operand1);
+int factorial(int operand1);
 
 int isarmstrong(int operand1);
 
 int isprime(int operand1);
  
-double squareroot(int operand1);
+double squareroot(double operand1);
 /*
 int sine(int operand1);
 
