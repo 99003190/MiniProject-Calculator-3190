@@ -106,6 +106,6 @@ void test_prime(void)
 void test_squareroot(void)
 {
     CU_ASSERT_DOUBLE_EQUAL(squareroot(144) , 12, 0);
-    CU_ASSERT_DOUBLE_EQUAL(squareroot(98) , 9.899, 0.1);
+    CU_ASSERT_DOUBLE_EQUAL(squareroot(98) , 9.899, 0);
 
 }
