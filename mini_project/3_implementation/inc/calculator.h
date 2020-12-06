@@ -45,18 +45,17 @@ int isarmstrong(int operand1);
 int isprime(int operand1);
  
 double squareroot(double operand1);
-/*
-int sine(int operand1);
 
-int cos(int operand1);
+float sine(float x);
 
-int tan(int operand1);
+float cosine(float x);
 
-int cosec(int operand1);
+float tangent(float x);
 
-int sec(int operand1);
+float sineh(float x);
 
-int cot(int operand1);
-*/
+float cosineh(float x);
+
+float tangenth(float x);
 
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
