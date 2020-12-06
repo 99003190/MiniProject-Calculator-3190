@@ -72,7 +72,7 @@ void calculator_menu(void)
             break;
         case 6:
              scanf("%d",&calculator_operand1);
-              val=isangstrom(calculator_operand1);
+              val=isarmstrong(calculator_operand1);
              if(val=0)
                      printf("NOT ANGSTROM");
              else

@@ -12,7 +12,7 @@ void test_multiply(void);
 void test_divide(void);
 void test_factorial(void);
 void test_evenodd(void);
-void test_armstrong(void);
+void test_isarmstrong(void);
 void test_prime(void);
 /* Start of the application test */
 int main() {
