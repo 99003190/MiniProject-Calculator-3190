@@ -26,7 +26,7 @@ int subtract(int,int);
 * @param[in] operand2 
 * @return Result of operand1 * operand2
 */
-int multiply(int,int);
+double multiply(int,int);
 
 
 /**
@@ -36,20 +36,16 @@ int multiply(int,int);
 * @return integer value of the operand1 / operand2
 * @note returns 0 for divide by 0 error
 */
-int divide(int,int);
+double divide(int,int);
 
-int factorial(int operand1);
+double factorial(int operand1);
 
 int isarmstrong(int operand1);
 
 int isprime(int operand1);
- /*
-<<<<<<< HEAD
-double sqareroot(double operand1);
-
-=======
-int squareroot(int operand1);
->>>>>>> e56123eb4474111e7234ec0074d53cf501e534f3
+ 
+double squareroot(int operand1);
+/*
 int sine(int operand1);
 
 int cos(int operand1);

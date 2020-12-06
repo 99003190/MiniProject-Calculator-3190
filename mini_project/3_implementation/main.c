@@ -5,7 +5,7 @@
 
 /* Display the menu of operations supported */
 void calculator_menu(void);
-int calculator_operand1=0, calculator_operand2=0, calculator_operand3=0,val=0;
+int  calculator_operand3=0,val=0;
 float val1=0;
 
 /* Start of the application */
@@ -35,6 +35,7 @@ void calculator_menu(void)
   switch(calculator_operation)
     {
         case 1:
+            int calculator_operand1=0, calculator_operand2=0;
             scanf("%d %d", &calculator_operand1, &calculator_operand2);
             
            val= add(calculator_operand1, calculator_operand2);
@@ -43,6 +44,7 @@ void calculator_menu(void)
             
             break;
         case 2:
+            int calculator_operand1=0, calculator_operand2=0;
             scanf("%d %d", &calculator_operand1, &calculator_operand2);
             
              val=subtract(calculator_operand1, calculator_operand2);
@@ -51,7 +53,8 @@ void calculator_menu(void)
             printf("%d",val);
             break;
         case 3:
-            scanf("%d %d", &calculator_operand1, &calculator_operand2);
+            double calculator_operand1=0, calculator_operand2=0;
+            scanf("%lf %lf", &calculator_operand1, &calculator_operand2);
             
              val=multiply(calculator_operand1, calculator_operand2);
             
@@ -59,10 +62,12 @@ void calculator_menu(void)
            
             break;
         case 4:
-            scanf("%d %d", &calculator_operand1, &calculator_operand2);
+            double calculator_operand1=0, calculator_operand2=0;
+            scanf("%lf %lf", &calculator_operand1, &calculator_operand2);
             
              val=divide(calculator_operand1, calculator_operand2);
          case 5:
+            int calculator_operand1=0, calculator_operand2=0;
             scanf("%d", &calculator_operand1);
              val=factorial(calculator_operand1);
             if(val<0)
@@ -71,6 +76,7 @@ void calculator_menu(void)
              printf(" Factorial=%d",val);
             break;
         case 6:
+            int calculator_operand1=0, calculator_operand2=0;
              scanf("%d",&calculator_operand1);
               val=isarmstrong(calculator_operand1);
              if(val=0)
@@ -79,6 +85,7 @@ void calculator_menu(void)
                      printf("ANGSTROM");
              break;
         case 7:
+            int calculator_operand1=0, calculator_operand2=0;
              scanf("%d",&calculator_operand1);
               val=isprime(calculator_operand1);
              if(val=1)
@@ -89,10 +96,10 @@ void calculator_menu(void)
         case 8:
         {
 
-            double num;
+            double calculator_operand1=0;
             printf("Enter number ");
-            scanf("%lf", &num);
-            printf("Square root is: %.3lf",sqareroot(num));
+            scanf("%lf", &calculator_operand1);
+            printf("Square root is: %.3lf",sqareroot(calculator_operand1));
             break;      
             
             
