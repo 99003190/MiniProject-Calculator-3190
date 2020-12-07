@@ -5,3 +5,5 @@ High Level Requriments
 .Prime number
 .Square root
 Low Level Requirements
+.Addition
+.Subtraction
