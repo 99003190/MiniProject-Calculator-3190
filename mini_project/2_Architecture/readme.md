@@ -1,1 +1,1 @@
-Calculator -It is device used to perform arithmetic operations,factorial,
+Calculator -It is device used to perform arithmetic operations,factorial,Armstrong number
