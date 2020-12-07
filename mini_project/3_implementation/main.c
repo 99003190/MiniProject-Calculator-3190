@@ -137,7 +137,7 @@ void calculator_menu(void)
             
         case 3:
         {
-            printf("\n1. Angstrom\n2. Primeno check\n3. exit");
+            printf("\n1. Armstrong\n2. Primeno check\n3. exit");
             printf("\n\tEnter your choice\t");
    
      
