@@ -11,3 +11,4 @@ Low Level Requirements
 .Division
 .Factorial
 .Armstrong number
+.Prime number
