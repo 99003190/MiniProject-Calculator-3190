@@ -1,1 +1,1 @@
-Calculator -It is device used to perform arithmetic operations,factorial,Armstrong number
+Calculator -It is a device used to perform arithmetic operations,factorial,Armstrong numbe and prime number.
