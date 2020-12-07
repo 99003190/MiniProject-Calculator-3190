@@ -153,7 +153,7 @@ void calculator_menu(void)
                     if(val=0)
                         printf("NOT ARMSTRONG");
                     else
-                         printf("ANGSTROM");
+                         printf("ARMSTRONG");
                 }
                 break;
                 case 2:
