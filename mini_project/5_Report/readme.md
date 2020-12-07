@@ -12,3 +12,4 @@ Low Level Requirements
 .Factorial
 .Armstrong number
 .Prime number
+.Square root
