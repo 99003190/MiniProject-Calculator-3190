@@ -1,6 +1,6 @@
 High Level Requriments
 .Arithmetic operations
-.Factorial
+.Factorial of a number
 .Armstrong Number
 .Prime Number
 .Square root
