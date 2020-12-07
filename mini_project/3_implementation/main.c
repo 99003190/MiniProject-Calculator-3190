@@ -23,7 +23,7 @@ void calculator_menu(void)
     printf("\nAvailable Operations\n");
     printf("\n1. Arithmetic\n2. Trigonometric\n3. Other\n4. Exit\t");
     scanf("%d", &choice);
-    //printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Factorial\n6. Angstrom\n7. Primeno check\n8. Square Root");
+    //printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Factorial\n6. Armstrong\n7. Primeno check\n8. Square Root");
     //printf("\n17. Exit");
     switch(choice)
     {
