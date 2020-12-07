@@ -8,3 +8,5 @@ Low Level Requirements
 .Addition
 .Subtraction
 .Multiplication
+.Division
+.Factorial
