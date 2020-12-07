@@ -1,8 +1,8 @@
 High Level Requriments
 .Arithmetic operations
 .Factorial
-.Armstrong number
-.Prime number
+.Armstrong Number
+.Prime Number
 .Square root
 Low Level Requirements
 .Addition
@@ -10,6 +10,6 @@ Low Level Requirements
 .Multiplication
 .Division
 .Factorial
-.Armstrong number
-.Prime number
+.Armstrong Number
+.Prime Number
 .Square root
