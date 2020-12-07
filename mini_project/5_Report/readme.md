@@ -10,3 +10,4 @@ Low Level Requirements
 .Multiplication
 .Division
 .Factorial
+.Armstrong number
