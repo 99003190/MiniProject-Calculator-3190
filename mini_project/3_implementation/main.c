@@ -151,7 +151,7 @@ void calculator_menu(void)
                     scanf("%d",&calculator_operand1);
                      val=isarmstrong(calculator_operand1);
                     if(val=0)
-                        printf("NOT ANGSTROM");
+                        printf("NOT ARMSTRONG");
                     else
                          printf("ANGSTROM");
                 }
